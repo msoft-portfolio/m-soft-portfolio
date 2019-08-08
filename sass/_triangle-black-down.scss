@@ -1,0 +1,11 @@
+.triangle-down-black {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 30px solid #0d0d0d;
+  position: relative;
+  top: 30px;
+  background-color: #f2f2f2;
+  z-index: -2;
+}

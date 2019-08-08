@@ -1,0 +1,26 @@
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+
+  .text-hero h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    font-size: 42px;
+    justify-content: baseline;
+    text-align: center;
+  }
+
+  .hero-img {
+    img {
+      transition: transform 2s;
+      height: 500px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

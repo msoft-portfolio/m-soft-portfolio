@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Teko', sans-serif;
+}
+
+.landing-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.landing-page .text-hero h2 {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 42px;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  text-align: center;
+}
+
+.landing-page .hero-img img {
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  height: 500px;
+  cursor: pointer;
+}
+
+.landing-page .hero-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.triangle-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #f2f2f2;
+}
+
+.triangle-down-white {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 30px solid #f2f2f2;
+  position: relative;
+  top: 30px;
+}
+
+.icons {
+  background: #0d0d0d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.icons .icon-clients,
+.icons .icon-website,
+.icons .icon-services {
+  width: 250px;
+  margin: 20px;
+}
+
+.icons .icon-clients h1,
+.icons .icon-website h1,
+.icons .icon-services h1 {
+  margin-bottom: 20px;
+}
+
+.icons .icon-clients b,
+.icons .icon-website b,
+.icons .icon-services b {
+  font-size: 30px;
+}
+
+.icons .icon-clients p,
+.icons .icon-website p,
+.icons .icon-services p {
+  text-align: justify;
+}
+
+.icons .icon-clients img,
+.icons .icon-website img,
+.icons .icon-services img {
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  cursor: pointer;
+  height: 250px;
+}
+
+.icons .icon-clients img:hover,
+.icons .icon-website img:hover,
+.icons .icon-services img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.triangle-black {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #0d0d0d;
+}
+
+.triangle-down-black {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 30px solid #0d0d0d;
+  position: relative;
+  top: 30px;
+  background-color: #f2f2f2;
+  z-index: -2;
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us img {
+  height: 300px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  cursor: pointer;
+}
+
+.about-us img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.about-us .text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-us .text-button h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-us .text-button b {
+  font-size: 30px;
+}
+
+.about-us .text-button button {
+  background-image: -webkit-gradient(linear, left top, right top, from(yellow), to(red));
+  background-image: linear-gradient(to right, yellow, red);
+  width: 160px;
+  height: 52px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 7px 14px #333333;
+          box-shadow: 3px 7px 14px #333333;
+  font-size: 20px;
+  border-style: none;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.about-us .text-button button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: linear-gradient(to right, red, yellow);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+}
+
+.social-icons .instagram-icon img,
+.social-icons .fb-icon img,
+.social-icons .phone-icon img {
+  height: 250px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  cursor: pointer;
+}
+
+.social-icons .instagram-icon img:hover,
+.social-icons .fb-icon img:hover,
+.social-icons .phone-icon img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.social-icons .instagram-icon,
+.social-icons .fb-icon,
+.social-icons .phone-icon {
+  margin: -50px;
+}
+
+.triangle-black-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #0d0d0d;
+}
+
+.triangle-up-black {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 30px solid #0d0d0d;
+  position: relative;
+  top: -30px;
+  z-index: -2;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background: #0d0d0d;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer .support {
+  width: 100px;
+  text-align: start;
+  margin: 20px;
+}
+
+footer .contact-us {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  margin: 20px;
+}
+
+footer .delivery {
+  width: 100px;
+  text-align: end;
+  margin: 20px;
+}
+
+footer h3 {
+  margin: 10px 0 10px 0;
+}
+
+.footer-copyright-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #0d0d0d;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+  .landing-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing-page .text-hero h2 {
+    font-size: 42px;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    text-align: center;
+  }
+  .landing-page .hero-img img {
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s;
+    height: 300px;
+    cursor: pointer;
+  }
+  .landing-page .hero-img img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons .icon-clients img,
+  .icons .icon-website img,
+  .icons .icon-services img {
+    height: 200px;
+  }
+  .icons h1 {
+    margin-bottom: 10px;
+  }
+  .icons b {
+    display: none;
+  }
+  .about-us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-us img {
+    height: 250px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s;
+    cursor: pointer;
+  }
+  .about-us .text-button {
+    font-size: 16px;
+  }
+  .about-us .text-button h1 {
+    font-size: 25px;
+  }
+  .about-us .text-button b {
+    display: none;
+  }
+  .about-us .text-button button {
+    width: 160px;
+    height: 52px;
+    font-size: 16px;
+    margin: 20px;
+  }
+  .social-icons {
+    height: 250px;
+  }
+  .social-icons .instagram-icon img,
+  .social-icons .fb-icon img,
+  .social-icons .phone-icon img {
+    height: 150px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s;
+    cursor: pointer;
+  }
+  .social-icons .instagram-icon img:hover,
+  .social-icons .fb-icon img:hover,
+  .social-icons .phone-icon img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .social-icons .instagram-icon,
+  .social-icons .fb-icon,
+  .social-icons .phone-icon {
+    margin: -30px;
+  }
+  footer .support {
+    width: 80px;
+    margin: 10px;
+  }
+  footer .contact-us {
+    width: 200px;
+    margin: 10px;
+  }
+  footer .delivery {
+    width: 80px;
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

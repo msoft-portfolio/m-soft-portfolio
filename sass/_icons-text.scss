@@ -1,0 +1,39 @@
+.icons {
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+
+  .icon-clients,
+  .icon-website,
+  .icon-services {
+    width: 250px;
+    margin: 20px;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    b {
+      font-size: 30px;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .icon-clients img,
+  .icon-website img,
+  .icon-services img {
+    transition: transform 2s;
+    cursor: pointer;
+    height: 250px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
